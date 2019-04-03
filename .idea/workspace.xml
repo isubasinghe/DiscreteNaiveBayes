@@ -12,18 +12,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/NBayes$LibNBayes.coverage" NAME="LibNBayes Coverage Results" MODIFIED="1554169849046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NBayes$LibNBayes.coverage" NAME="LibNBayes Coverage Results" MODIFIED="1554246602946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LibNBayes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="184" column="53" selection-start-line="184" selection-start-column="53" selection-end-line="184" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="750">
+              <caret line="167" selection-start-line="167" selection-end-line="167" />
             </state>
           </provider>
         </entry>
@@ -48,9 +45,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1618" />
-    <option name="height" value="1103" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1294" />
+    <option name="height" value="1407" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -140,23 +138,26 @@
       <workItem from="1553902435720" duration="2606000" />
       <workItem from="1553905134975" duration="4890000" />
       <workItem from="1553926793079" duration="4443000" />
-      <workItem from="1554157079453" duration="8003000" />
+      <workItem from="1554157079453" duration="8341000" />
+      <workItem from="1554246411726" duration="965000" />
+      <workItem from="1554281622871" duration="3546000" />
+      <workItem from="1554289059080" duration="609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31286000" />
+    <option name="totallyTimeSpent" value="36744000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="0" width="1294" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16174497" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20340356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3696884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3696884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39952904" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -216,11 +217,57 @@
     <entry file="file://$PROJECT_DIR$/2019S1-proj1-data_dos/headers.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/2019S1-proj1-data_dos/breast-cancer.csv">
+    <entry file="file://$PROJECT_DIR$/2019S1-proj1-data_dos/anneal.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-14562" />
+      </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019S1-proj1-data_dos/mushroom.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-16830" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019S1-proj1-data_dos/primary-tumor.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019S1-proj1-data_dos/cmc.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019S1-proj1-data_dos/hypothyroid.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-53308">
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019S1-proj1-data_dos/breast-cancer.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-68">
+          <caret line="5" column="67" lean-forward="true" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2019S1-proj1-data_dos/hepatitis.csv">
       <provider editor-type-id="text-editor">
@@ -228,48 +275,19 @@
           <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        <state relative-caret-position="595">
+          <caret line="92" column="53" selection-start-line="92" selection-start-column="53" selection-end-line="92" selection-end-column="53" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019S1-proj1-data_dos/anneal.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-14562" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019S1-proj1-data_dos/mushroom.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-16830" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019S1-proj1-data_dos/primary-tumor.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LibNBayes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="184" column="53" selection-start-line="184" selection-start-column="53" selection-end-line="184" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="750">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
         </state>
       </provider>
     </entry>

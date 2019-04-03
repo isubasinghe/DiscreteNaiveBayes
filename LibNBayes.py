@@ -136,6 +136,11 @@ def evaluate(nb, x_test_list, y_test_list):
     return correct_count/total_count
 
 
+def info_gain(posteriors):
+    pass
+
+
+
 def holdout(data, classes):
     up_lim = int(len(data) * 0.8)
 
